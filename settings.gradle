@@ -1,0 +1,6 @@
+rootProject.name = 'homework'
+
+include 'gradle_boot_server'
+include 'gradle_boot_client'
+include 'cloud_consul_feign1'
+
