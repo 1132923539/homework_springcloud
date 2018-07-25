@@ -41,6 +41,8 @@ dependencies {
     runtime('mysql:mysql-connector-java')
     testCompile('org.springframework.boot:spring-boot-starter-test')
     compile "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib-jdk8', version: '1.2.41'
+    compile group: 'org.jetbrains.kotlin', name: 'kotlin-reflect', version: '1.2.41'
 }
 compileKotlin {
     kotlinOptions {

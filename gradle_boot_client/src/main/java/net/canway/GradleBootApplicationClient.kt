@@ -6,7 +6,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient
 
 @SpringBootApplication
 @EnableDiscoveryClient
-object GradleBootApplicationClient {
+open class GradleBootApplicationClient
 
     //    @RequestMapping("/test")
     //    public String tt() {
@@ -22,8 +22,7 @@ object GradleBootApplicationClient {
     }*/
 
 
-    @JvmStatic
-    fun main(args: Array<String>) {
-        SpringApplication.run(GradleBootApplicationClient::class.java, *args)
-    }
+fun main(args: Array<String>) {
+    SpringApplication.run(GradleBootApplicationClient::class.java, *args)
 }
+
