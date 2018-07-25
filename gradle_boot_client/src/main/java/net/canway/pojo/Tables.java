@@ -4,9 +4,9 @@
 package net.canway.pojo;
 
 
-import javax.annotation.Generated;
-
 import net.canway.pojo.tables.User;
+
+import javax.annotation.Generated;
 
 
 /**

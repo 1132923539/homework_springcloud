@@ -39,7 +39,6 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-actuator:2.0.3.RELEASE')
     compile('org.springframework.cloud:spring-cloud-starter-consul-discovery:2.0.0.RELEASE')
     compile('org.springframework.cloud:spring-cloud-starter-openfeign:2.0.0.RELEASE')
-    compile('org.springframework.cloud:spring-cloud-netflix-core:2.0.0.RELEASE')
 
     compile('org.springframework.cloud:spring-cloud-starter-ribbon:1.4.5.RELEASE')
     compile('io.springfox:springfox-swagger2:2.2.2')
