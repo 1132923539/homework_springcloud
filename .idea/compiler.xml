@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="cloud_consul_feign1_main" target="1.5" />
+      <module name="cloud_consul_feign1_test" target="1.5" />
       <module name="gradle_boot1_main" target="1.8" />
       <module name="gradle_boot1_test" target="1.8" />
       <module name="gradle_boot_main" target="1.8" />

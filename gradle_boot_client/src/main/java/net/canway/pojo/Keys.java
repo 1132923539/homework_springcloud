@@ -4,15 +4,14 @@
 package net.canway.pojo;
 
 
-import javax.annotation.Generated;
-
 import net.canway.pojo.tables.User;
 import net.canway.pojo.tables.records.UserRecord;
-
 import org.jooq.Identity;
 import org.jooq.UniqueKey;
 import org.jooq.impl.Internal;
 import org.jooq.types.UInteger;
+
+import javax.annotation.Generated;
 
 
 /**

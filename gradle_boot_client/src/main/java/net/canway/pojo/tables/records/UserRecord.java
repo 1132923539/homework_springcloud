@@ -4,16 +4,15 @@
 package net.canway.pojo.tables.records;
 
 
-import javax.annotation.Generated;
-
 import net.canway.pojo.tables.User;
-
 import org.jooq.Field;
 import org.jooq.Record1;
 import org.jooq.Record4;
 import org.jooq.Row4;
 import org.jooq.impl.UpdatableRecordImpl;
 import org.jooq.types.UInteger;
+
+import javax.annotation.Generated;
 
 
 /**

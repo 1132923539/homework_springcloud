@@ -10,7 +10,7 @@ spring:
 
 #配置主机设置
   application:
-    name: GradleBootApplicationServer1
+    name: GradleBootApplicationServer
 
   cloud:
       consul:

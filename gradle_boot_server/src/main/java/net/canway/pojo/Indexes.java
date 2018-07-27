@@ -4,13 +4,12 @@
 package net.canway.pojo;
 
 
-import javax.annotation.Generated;
-
 import net.canway.pojo.tables.User;
-
 import org.jooq.Index;
 import org.jooq.OrderField;
 import org.jooq.impl.Internal;
+
+import javax.annotation.Generated;
 
 
 /**
